@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "scarabetta",
+    "baseName": "jhMapa360Services",
+    "packageName": "ar.gob.gcba.dgisis.goarq",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.0",
+    "packageFolder": "ar/gob/gcba/dgisis/goarq",
+    "jwtSecretKey": "ea589586fbdcb2c21b68577dca1fee46b9b37b99",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
